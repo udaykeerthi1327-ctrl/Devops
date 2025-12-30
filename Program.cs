@@ -28,17 +28,17 @@ app.MapGet("/", () => Results.Content($@"
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fourth Coffee - Home</title>
+    <title>Uday & keerthi Coffee Center - Home</title>
     {sharedStyles}
 </head>
 <body>
     <div id='page'>
         <header>
-            <p class='site-title'><a href='/'>Fourth Coffee</a></p>
+            <p class='site-title'><a href='/'>UK Coffee Center</a></p>
             <nav><ul><li><a href='/'>Home</a></li><li><a href='/About'>About Us</a></li></ul></nav>
         </header>
         <div id='body'>
-            <h1>Welcome to Fourth Coffee!</h1>
+            <h1>Welcome to UK Coffee Center!</h1>
             <div id='featuredProduct'>
                 <img src='https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=200' />
                 <div>
@@ -49,7 +49,7 @@ app.MapGet("/", () => Results.Content($@"
                 </div>
             </div>
         </div>
-        <footer>&copy; 2025 - Fourth Coffee</footer>
+        <footer>&copy; 2025 - UK Coffee Center</footer>
     </div>
 </body>
 </html>", "text/html"));
@@ -59,28 +59,28 @@ app.MapGet("/About", () => Results.Content($@"
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Fourth Coffee - About Us</title>
+    <title>UK Coffee Center- About Us</title>
     {sharedStyles}
 </head>
 <body>
     <div id='page'>
         <header>
-            <p class='site-title'><a href='/'>Fourth Coffee</a></p>
+            <p class='site-title'><a href='/'>UK Coffee Center</a></p>
             <nav><ul><li><a href='/'>Home</a></li><li><a href='/About'>About Us</a></li></ul></nav>
         </header>
         <div id='body'>
             <section id='main'>
-                <h1>THIS IS DEVOPS CLASS</h1>
+                <h1>THIS IS uday & keerthi coffice center provides best coffice in the world.</h1>
                 <p>
-                    Fourth Coffee was founded in 2010 and delivers coffee and fresh baked goods right to your door. 
+                    UK Coffee was founded in 2010 and delivers coffee and fresh baked goods right to your door. 
                     In another life, Bill Baker was a developer by day and pastry chef by night. 
                     But soon Bill's innate skills with all things involving butter, flour and sugar put him 
                     even more in demand than his programming talents...
                 </p>
-                <p>Fourth Coffee honors his tech background by employing a state of the art online ordering system!</p>
+                <p>UK Coffee honors his tech background by employing a state of the art online ordering system!</p>
             </section>
         </div>
-        <footer>&copy; 2025 - Fourth Coffee</footer>
+        <footer>&copy; 2025 - UK Coffee Center</footer>
     </div>
 </body>
 </html>", "text/html"));
